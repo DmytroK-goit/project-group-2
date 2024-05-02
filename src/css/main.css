@@ -34,10 +34,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-.conteiner {
-  padding: 65px;
-  width: 1150px;
-}
+
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .conteiner {
