@@ -24,7 +24,11 @@ flex-wrap: wrap;
     background: #f3f3f3;
     position: relative;
     overflow: hidden;
-    
+    max-width: 304px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .catalog-div-picture{
@@ -40,6 +44,7 @@ flex-wrap: wrap;
     padding-bottom: 24px;
     padding-top: 10px;
     max-width: 304px;
+    display: block;
 }
 .catalog-name {
     font-family: "Gilroy", sans-serif;
