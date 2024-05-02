@@ -1,1 +1,45 @@
 .catalog{background-color: darkkhaki;}
+
+
+.section-catalog {}
+
+.catalog-title {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 0.91667;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 40px;}
+
+.catalog-list {
+display: flex;
+gap: 23px;}
+
+.catalog-item {
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    background: #f3f3f3;
+}
+
+.catalog-div-picture{
+margin-bottom: 24px;
+}
+.catalog-picture {}
+
+.catalog-name {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 8px;}
+
+.catalog-price {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.5);}
