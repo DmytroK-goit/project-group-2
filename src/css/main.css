@@ -34,8 +34,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
-
-
 @media screen and (min-width: 320px) and (max-width: 374px) {
   .conteiner {
     padding: 20px;
