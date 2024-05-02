@@ -1,0 +1,62 @@
+<section class="about-section" id="about-us">
+  <div class="container about-wrap">
+    <div class="about-all_text">
+      <h2 class="about-title">About Us</h2>
+      <ul class="about-list">
+        <li class="about-list-item">
+          <p class="about-paragraph">
+            Welcome to our premium watch collection, where luxury and style meet
+            functionality and precision. Our selection of timepieces embodies
+            the very best in Swiss craftsmanship and engineering, ensuring that
+            you'll always have a reliable and stylish accessory on your wrist.
+          </p>
+        </li>
+        <li class="about-list-item">
+          <p class="about-paragraph">
+            At our premium watch collection, we believe that a watch is more
+            than just a timekeeping device – it's a statement piece that
+            reflects your personality and style. So why settle for anything less
+            than the best?
+          </p>
+        </li>
+      </ul>
+      <!-- "#catalog" should be changed into the anchor of Catalog section  -->
+      <button class="about-btn" type="button" href="#catalog">
+        View catalog
+      </button>
+    </div>
+    <picture>
+      <!-- "pictures for mobile  -->
+      <source
+        srcset="
+          ./img/about-us/about-mob.jpg    1x,
+          ./img/about-us/about-mob-2x.jpg 2x
+        "
+        class="about-img"
+        media="(max-width: 767px)"
+      />
+      <!-- "pictures for tablet  -->
+      <source
+        srcset="
+          ./img/about-us/about-tab.jpg    1x,
+          ./img/about-us/about-tab-2x.jpg 2x
+        "
+        class="about-img"
+        media="(min-width: 768px)"
+      />
+      <!-- "pictures for computer  -->
+      <source
+        srcset="./img/about-us/about.jpg 1x, ./img/about-us/about-2x.jpg 2x"
+        class="about-img"
+        media="(min-width: 1280px)"
+      />
+      <img
+        src="./img/about-us/about.jpg"
+        alt="Watch"
+        width="530"
+        height="532"
+        class="about-img"
+      />
+    </picture>
+  </div>
+</section>
