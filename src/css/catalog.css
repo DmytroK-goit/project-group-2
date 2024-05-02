@@ -1,4 +1,4 @@
-.catalog{background-color: darkkhaki;}
+.catalog{background-color: rgb(107, 114, 189);}
 
 
 .section-catalog {}
@@ -14,19 +14,33 @@
 
 .catalog-list {
 display: flex;
-gap: 23px;}
+gap: 32px 23px;
+flex-wrap: wrap;
+}
 
 .catalog-item {
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     background: #f3f3f3;
+    position: relative;
+    overflow: hidden;
+    
 }
 
 .catalog-div-picture{
-margin-bottom: 24px;
-}
-.catalog-picture {}
 
+}
+
+.catalog-picture { }
+.catalog-img{}
+
+.catalog-text{
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    max-width: 304px;
+}
 .catalog-name {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
