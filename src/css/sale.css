@@ -35,8 +35,6 @@
 .sale-main-img {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 385px;
   background-color: #f3f3f3;
   padding: 50px;
   width: 235px;
@@ -147,7 +145,6 @@
   }
 
   .sale-mini-img {
-    max-width: 132px;
   }
 
   .sale-img-list {
@@ -161,7 +158,6 @@
   }
 
   .sale-main-img {
-    /* max-width: 552px; */
     padding: 80px 112px;
   }
 
@@ -218,6 +214,10 @@
 
 @media screen and (min-width: 1280px) {
   .section-sale {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 
   .section-title {
@@ -236,6 +236,7 @@
   }
 
   .sale-main-img {
+    padding: 80px 50px;
   }
 
   .main-img {
