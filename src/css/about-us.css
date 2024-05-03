@@ -1,0 +1,188 @@
+.about-section {
+  margin-bottom: 60px;
+}
+
+.about-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-all_text {
+  border-radius: 30px;
+  background: #f3f3f3;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.about-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 28px;
+}
+
+.about-paragraph {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.about-list-item:first-child {
+  margin-bottom: 20px;
+}
+
+.about-list-item:last-child {
+  margin-bottom: 40px;
+}
+
+.about-btn {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background-color: #3350e9;
+  border: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.about-img {
+  border-radius: 30px;
+  background: linear-gradient(
+      0deg,
+      rgba(12, 12, 12, 0.2) 0%,
+      rgba(12, 12, 12, 0.2) 100%
+    ),
+    url(/img/about-us/about-mob);
+}
+
+@media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+  .about-img {
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(/img/about-us/about-mob-2x.jpg);
+  }
+}
+/* -----------------------------  FOR TABLET ----------------------------- */
+
+@media screen and (min-width: 768px) {
+  .about-wrap {
+    gap: 40px;
+  }
+
+  .about-all_text {
+    border-radius: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .about-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .about-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .about-list-item:last-child {
+    margin-bottom: 60px;
+  }
+
+  .about-img {
+    width: 100%;
+    border-radius: 50px;
+    background: linear-gradient(
+        0deg,
+        rgba(12, 12, 12, 0.2) 0%,
+        rgba(12, 12, 12, 0.2) 100%
+      ),
+      url(/img/about-us/about-tab);
+  }
+
+  @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    .about-img {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(/img/about-us/about-tab-2x.jpg);
+    }
+  }
+}
+/* -----------------------------  FOR COMPUTER ----------------------------- */
+@media screen and (min-width: 1280px) {
+  .about-wrap {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+  }
+
+  .about-all_text {
+    border-radius: 50px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    /* width: 580px; */
+  }
+
+  .about-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
+
+  .about-paragraph {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .about-list {
+    width: 460px;
+  }
+
+  .about-list-item:last-child {
+    margin-bottom: 75px;
+  }
+
+  .about-img {
+    border-radius: 50px;
+    background: linear-gradient(
+        0deg,
+        rgba(12, 12, 12, 0.2) 0%,
+        rgba(12, 12, 12, 0.2) 100%
+      ),
+      url(/img/about-us/about);
+  }
+
+  @media screen and (min-resolution: 2dppx), (min-resolution: 192dpi) {
+    .about-img {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(/img/about-us/about-2x.jpg);
+    }
+  }
+}
