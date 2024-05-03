@@ -1,4 +1,4 @@
-.catalog{}
+.catalog {}
 
 .section-catalog {}
 
@@ -9,12 +9,13 @@
     line-height: 0.91667;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    margin-bottom: 40px;}
+    margin-bottom: 40px;
+}
 
 .catalog-list {
-display: flex;
-gap: 32px 23px;
-flex-wrap: wrap;
+    display: flex;
+    gap: 32px 23px;
+    flex-wrap: wrap;
 }
 
 .catalog-item {
@@ -30,23 +31,25 @@ flex-wrap: wrap;
     /* align-items: center; */
 }
 
-.catalog-item-none{display:none;}
-
-.catalog-div-picture{
-
+.catalog-item-none {
+    display: none;
 }
 
-.catalog-picture { }
-.catalog-img{}
+.catalog-div-picture {}
 
-.catalog-text{
+.catalog-picture {}
+
+.catalog-img {}
+
+.catalog-text {
     padding-left: 32px;
     padding-right: 32px;
     padding-bottom: 24px;
-    padding-top: 10px; 
+    padding-top: 10px;
     max-width: 304px;
     display: block;
 }
+
 .catalog-name {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
@@ -64,41 +67,42 @@ flex-wrap: wrap;
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.5);}
+    color: rgba(12, 12, 12, 0.5);
+}
 
 
-        .catalog-button{
-            font-family: "Gilroy", sans-serif;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 1.28571;
-                text-align: center;
-                color: #fbfbfb;
-                background: #3350e9;
-                border-radius: 16px;
-                    width: 160px;
-                    height: 48px;
-                display: block;
-                margin: 0 auto;
-        }
+.catalog-button {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+    background: #3350e9;
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
+
 /*------------------TAB----------------------------*/
 @media screen and (min-width:768px) {
-.catalog-button {display:none;}
-                
-.catalog-item-none{
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 30px;
-    background: #f3f3f3;
-    position: relative;
-    overflow: hidden;
-    max-width: 304px;
-    display: flex;
-    flex-wrap: wrap;}
+    .catalog-button {
+        display: none;
+    }
+
+    .catalog-item-none {
+        border: 1px solid rgba(12, 12, 12, 0.05);
+        border-radius: 30px;
+        background: #f3f3f3;
+        position: relative;
+        overflow: hidden;
+        max-width: 304px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 /*------------------Desktop----------------------------*/
-@media screen and (min-width:1280px) {
-
-
-
-}
+@media screen and (min-width:1280px) {}
