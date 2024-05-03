@@ -26,14 +26,11 @@
       </button>
     </div>
     <picture>
-      <!-- "pictures for mobile  -->
+      <!-- "pictures for computer  -->
       <source
-        srcset="
-          ./img/about-us/about-mob.jpg    1x,
-          ./img/about-us/about-mob-2x.jpg 2x
-        "
+        srcset="./img/about-us/about.jpg 1x, ./img/about-us/about-2x.jpg 2x"
         class="about-img"
-        media="(max-width: 767px)"
+        media="(min-width: 1280px)"
       />
       <!-- "pictures for tablet  -->
       <source
@@ -44,11 +41,14 @@
         class="about-img"
         media="(min-width: 768px)"
       />
-      <!-- "pictures for computer  -->
+      <!-- "pictures for mobile  -->
       <source
-        srcset="./img/about-us/about.jpg 1x, ./img/about-us/about-2x.jpg 2x"
+        srcset="
+          ./img/about-us/about-mob.jpg    1x,
+          ./img/about-us/about-mob-2x.jpg 2x
+        "
         class="about-img"
-        media="(min-width: 1280px)"
+        media="(max-width: 767px)"
       />
       <img
         src="./img/about-us/about.jpg"
