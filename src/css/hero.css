@@ -1,0 +1,159 @@
+/* Стилі для мобільних пристроїв */
+.container.hero {
+  padding-top: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.hero-main {
+}
+.wrap-text {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 28px;
+}
+
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 95%;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+.hero-title-span {
+  color: #3350e9;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+.hero-wrap-links {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 155px;
+  margin-bottom: 28px;
+}
+
+.hero-people-image {
+  width: 108px;
+  height: 44px;
+}
+.hero-link-to-footer {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+}
+.hero-main-img {
+  border-radius: 30px;
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .container {
+    padding: 20px;
+    width: 335px;
+    margin: 0 auto;
+  }
+}
+
+/* Адаптивна верстка від 375px і більше */
+@media screen and (min-width: 375px) {
+  .container {
+    padding: 20px;
+    width: 335px;
+    margin: 0 auto;
+  }
+}
+
+/* Стилі для планшетів */
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 32px;
+    width: 704px;
+    margin: 0 auto;
+  }
+
+  .container.hero {
+    padding: 0 32px;
+    margin-bottom: 80px;
+  }
+  .hero-main {
+  }
+  .wrap-text {
+    width: 557px;
+  }
+
+  .hero-title {
+    font-size: 70px;
+    line-height: 86%;
+  }
+
+  .hero-text {
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .hero-wrap-links {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 180px;
+  }
+  .hero-link-to-reviews {
+  }
+  .hero-people-image {
+  }
+  .hero-link-to-footer {
+  }
+  .hero-main-img {
+  }
+}
+
+/* Стилі для настільних комп'ютерів */
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 65px;
+    width: 1150px;
+    margin: 0 auto;
+  }
+  .hero {
+  }
+  .container {
+  }
+  .wrap-text {
+  }
+  .hero-title {
+  }
+  .hero-title-span {
+  }
+  .hero-text {
+  }
+  .hero-wrap-links {
+  }
+  .hero-link-to-reviews {
+  }
+  .hero-people-image {
+  }
+  .hero-link-to-footer {
+  }
+  .hero-main-img {
+  }
+}
