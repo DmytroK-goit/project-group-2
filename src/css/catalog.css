@@ -27,6 +27,10 @@
   margin-bottom: 40px;
 }
 
+.catalog-img{
+  margin: 0 auto;
+}
+
 @media (max-width:767px) {
   .catalog-none {
     display: none;
@@ -40,6 +44,7 @@
   padding-top: 10px;
   max-width: 304px;
   display: block;
+  align-content: center;
 }
 
 .catalog-name {
