@@ -217,10 +217,15 @@
     margin-bottom: 100px;
   }
 
-  .section-title {
+  .sale-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 
   .sale-photos {
+    max-width: 580px;
+    margin-right: 40px;
   }
 
   .sale-mini-img {
@@ -242,18 +247,6 @@
   .sale-description {
   }
 
-  .sale-subtitle {
-  }
-
-  .sale-tag {
-  }
-
-  .sale-prize {
-  }
-
-  .prizes {
-  }
-
   .sale-prize-new {
   }
 
@@ -264,8 +257,5 @@
   }
 
   .sale-item {
-  }
-
-  .sale-link {
   }
 }
