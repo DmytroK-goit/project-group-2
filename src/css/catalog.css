@@ -1,132 +1,125 @@
-.catalog {}
+.catalog {
+}
 
-.section-catalog {}
+.section-catalog {
+}
 
 .catalog-title {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 0.91667;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    margin-bottom: 40px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 40px;
 }
 
 .catalog-list {
-<<<<<<< HEAD
-display: flex;
-flex-wrap: wrap;
-/* gap: 32px 23px; */
-justify-content: center;
-
-
-=======
-    display: flex;
-    gap: 32px 23px;
-    flex-wrap: wrap;
->>>>>>> main
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 32px 23px; */
+  justify-content: center;
 }
 
-
-
 .catalog-item {
-    border: 1px solid rgba(12, 12, 12, 0.05);
-    border-radius: 30px;
-    background: #f3f3f3;
-    position: relative;
-    overflow: hidden;
-    width: calc((100% - 23px) / 3);
-} 
-
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+  position: relative;
+  overflow: hidden;
+  width: calc((100% - 23px) / 3);
+}
 
 /* .catalog-none{display:none;} */
 
-.catalog-div-picture{
-   
+.catalog-div-picture {
 }
 
-
-.catalog-img{display: block;
-    margin: 0 auto;}
+.catalog-img {
+  display: block;
+  margin: 0 auto;
+}
 .catalog-item-none {
-    display: none;
+  display: none;
 }
 
-.catalog-div-picture {}
+.catalog-div-picture {
+}
 
-.catalog-picture {}
+.catalog-picture {
+}
 
-.catalog-img {}
+.catalog-img {
+}
 
 .catalog-text {
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-bottom: 24px;
-    padding-top: 10px; 
-    /* max-width: 304px; */
-    /* display: block; */
-    padding-top: 10px;
-    max-width: 304px;
-    display: block;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 24px;
+  padding-top: 10px;
+  /* max-width: 304px; */
+  /* display: block; */
+  padding-top: 10px;
+  max-width: 304px;
+  display: block;
 }
 
 .catalog-name {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    margin-bottom: 8px;
-    text-overflow:ellipsis;
-    overflow: hidden;
-    white-space:nowrap;
-    max-width: 304px;
-    
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 8px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: 304px;
 }
 
 .catalog-price {
-    font-family: "Gilroy", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.5);
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
 }
 
+.catalog-button {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  background: #3350e9;
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
 
-        .catalog-button{
-            font-family: "Gilroy", sans-serif;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 1.28571;
-                text-align: center;
-                color: #fbfbfb;
-                background: #3350e9;
-                border-radius: 16px;
-                    width: 160px;
-                    height: 48px;
-                display: block;
-                margin: 0 auto;
+  position: absolute;
 
-                position: absolute;
-                 
-                 /* top:40px; */
-                
-        }
+  /* top:40px; */
+}
 /*------------------TAB----------------------------*/
-@media screen and (min-width:768px) {
-.catalog-button {display:none;}
-                
-/* .catalog-none{
+@media screen and (min-width: 768px) {
+  .catalog-button {
+    display: none;
+  }
+
+  /* .catalog-none{
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
     background: #f3f3f3;
     position: relative;
     overflow: hidden;
    width: calc((100% - 46px) / 3);} */
-.catalog-button {
-    font-family: "Gilroy", sans-serif;
+  .catalog-button {
+    font-family: 'Gilroy', sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
@@ -138,34 +131,33 @@ justify-content: center;
     height: 48px;
     display: block;
     margin: 0 auto;
-}
+  }
 
-/*------------------TAB----------------------------*/
-@media screen and (min-width:768px) {
+  /*------------------TAB----------------------------*/
+  @media screen and (min-width: 768px) {
     .catalog-button {
-        display: none;
+      display: none;
     }
 
     .catalog-item-none {
-        border: 1px solid rgba(12, 12, 12, 0.05);
-        border-radius: 30px;
-        background: #f3f3f3;
-        position: relative;
-        overflow: hidden;
-        max-width: 304px;
-        display: flex;
-        flex-wrap: wrap;
+      border: 1px solid rgba(12, 12, 12, 0.05);
+      border-radius: 30px;
+      background: #f3f3f3;
+      position: relative;
+      overflow: hidden;
+      max-width: 304px;
+      display: flex;
+      flex-wrap: wrap;
     }
-}
-
+  }
 }
 /*------------------Desktop----------------------------*/
-@media screen and (min-width:1280px) {
-/* .catalog-item{ width:calc((100%-46px)/3) ;} */
-.catalog-img {
-   width: 292px;
-   height: 292px;
+@media screen and (min-width: 1280px) {
+  /* .catalog-item{ width:calc((100%-46px)/3) ;} */
+  .catalog-img {
+    width: 292px;
+    height: 292px;
+  }
 }
-
+@media screen and (min-width: 1280px) {
 }
-@media screen and (min-width:1280px) {}
