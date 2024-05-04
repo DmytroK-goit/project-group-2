@@ -1,5 +1,6 @@
 /* Стилі для мобільних пристроїв */
-.container.hero {
+
+.hero .container {
   padding: 60px 20px;
 }
 .hero-main {
@@ -62,13 +63,7 @@
   width: 335px;
   height: 366px;
 }
-@media screen and (min-width: 320px) and (max-width: 374px) {
-  .container {
-    padding: 20px;
-    width: 335px;
-    margin: 0 auto;
-  }
-}
+
 /* Адаптивна верстка від 375px і більше */
 @media screen and (min-width: 375px) {
   .container {
