@@ -13,15 +13,18 @@
 }
 
 .catalog-list {
+<<<<<<< HEAD
 display: flex;
 flex-wrap: wrap;
 /* gap: 32px 23px; */
 justify-content: center;
 
 
+=======
     display: flex;
     gap: 32px 23px;
     flex-wrap: wrap;
+>>>>>>> main
 }
 
 
@@ -39,7 +42,7 @@ justify-content: center;
 /* .catalog-none{display:none;} */
 
 .catalog-div-picture{
-
+   
 }
 
 
@@ -105,7 +108,12 @@ justify-content: center;
                     height: 48px;
                 display: block;
                 margin: 0 auto;
-                position: absolute;}
+
+                position: absolute;
+                 
+                 /* top:40px; */
+                
+        }
 /*------------------TAB----------------------------*/
 @media screen and (min-width:768px) {
 .catalog-button {display:none;}
