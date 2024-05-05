@@ -280,9 +280,11 @@ textarea::placeholder {
         width: 1280px;
         padding-left: 65px;
         padding-right: 65px;
+        margin: 0;
     }
 
     .contacts-container {
+        flex-wrap: nowrap;
         gap: 40px;
     }
 
