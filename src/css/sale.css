@@ -1,4 +1,5 @@
 .section-sale {
+  margin-bottom: 60px;
 }
 
 .section-title {
@@ -40,16 +41,12 @@
   border-radius: 30px;
   background-color: #f3f3f3;
   padding: 50px;
-  /* width: 235px;
-  height: 285px; */
 }
 
 .sale-description {
   border-radius: 30px;
   background-color: #3350e9;
   padding: 48px 28px;
-  /* max-width: 335px; */
-  margin-bottom: 60px;
 }
 
 .sale-subtitle {
@@ -154,7 +151,7 @@
     width: 132px;
     height: 558px;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     gap: 10px;
   }
 
@@ -175,22 +172,12 @@
   }
 
   .sale-description {
-    /* max-width: 704px; */
     padding: 60px;
   }
 
   .sale-subtitle {
     font-size: 32px;
     line-height: 1.12;
-  }
-
-  .sale-tag {
-  }
-
-  .sale-prize {
-  }
-
-  .prizes {
   }
 
   .sale-prize-new {
@@ -214,9 +201,6 @@
     font-size: 14px;
     line-height: 1.28;
   }
-
-  .sale-link {
-  }
 }
 
 /*------------------------DESKTOP--------------------------*/
@@ -229,37 +213,28 @@
   .sale-wrap {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    justify-content: center;
   }
 
   .sale-photos {
+    margin: 0 auto;
     max-width: 580px;
     margin-right: 40px;
   }
 
   .sale-mini-img {
-  }
-
-  .sale-img-list {
-  }
-
-  .sale-img-item {
+    flex-direction: column;
+    gap: 10px;
   }
 
   .sale-main-img {
     padding: 80px 50px;
   }
 
-  .main-img {
-  }
-
   .sale-description {
   }
 
-  .sale-prize-new {
-  }
-
-  .sale-text {
+  .sale-subtitle {
   }
 
   .sale-list {
