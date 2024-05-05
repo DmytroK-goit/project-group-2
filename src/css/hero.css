@@ -1,6 +1,14 @@
 /* Стилі для мобільних пристроїв */
+
+.container {
+  padding: 32px;
+  width: 335px;
+  margin: 0 auto;
+}
 .hero .container {
   padding: 60px 20px;
+  width: 100%;
+  margin: 0 auto;
 }
 .hero-main {
   display: flex;
@@ -59,8 +67,8 @@
 }
 .hero-main-img {
   border-radius: 30px;
-  width: 335px;
-  height: 366px;
+  width: 100%;
+  height: auto;
 }
 
 /* Адаптивна верстка від 375px і більше */
@@ -70,6 +78,17 @@
     width: 335px;
     margin: 0 auto;
   }
+
+  .hero .container {
+    padding: 60px 20px;
+    margin: 0 auto;
+  }
+  .wrap-text {
+    width: 335px;
+  }
+  .hero-main-img {
+    width: 335px;
+  }
 }
 /* Стилі для планшетів */
 @media screen and (min-width: 768px) {
@@ -78,8 +97,9 @@
     width: 704px;
     margin: 0 auto;
   }
-  .container.hero {
+  .hero .container {
     padding: 80px 32px;
+    margin: 0 auto;
   }
   .hero-main {
     display: flex;
