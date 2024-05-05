@@ -5,6 +5,7 @@
     border-radius: 30px;
 }
 
+
 .social-wrapper {
     display: flex;
     flex-direction: column;
@@ -72,6 +73,7 @@
     display: flex;
     flex-direction: row;
     gap: 16px;
+    border-bottom: 1px solid rgba(251, 251, 251, 0, 1);
 }
 
 .menu-link {
@@ -162,10 +164,10 @@
 
     .description-wrapper {
         margin-bottom: 100px;
+
     }
 
     .footer-description {
-
         font-size: 20px;
         line-height: 1.2;
     }
@@ -204,6 +206,7 @@
         stroke-width: 1px;
         stroke: rgba(251, 251, 251, 0.1);
         height: 24px;
+
     }
 
     .information-container {
@@ -283,6 +286,10 @@
         line-height: 1.14;
         width: 524px;
         margin: 0 auto;
+    }
+
+    .description-wrapper {
+        margin-bottom: 100px;
     }
 
     .information-container {
@@ -383,6 +390,7 @@
     .footer-menu-wrapper {
         width: 1150px;
         justify-content: space-between;
+        border-bottom: 1px solid rgba(251, 251, 251, 0, 1);
     }
 
     .information {
