@@ -212,12 +212,11 @@
 
   .sale-wrap {
     display: flex;
-    flex-direction: row;
     justify-content: center;
   }
 
   .sale-photos {
-    margin: 0 auto;
+    margin: 0;
     max-width: 580px;
     margin-right: 40px;
   }
@@ -232,14 +231,5 @@
   }
 
   .sale-description {
-  }
-
-  .sale-subtitle {
-  }
-
-  .sale-list {
-  }
-
-  .sale-item {
   }
 }
