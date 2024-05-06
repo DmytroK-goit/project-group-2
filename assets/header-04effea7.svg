@@ -10,17 +10,11 @@
 <path d="M29.517 10.755c-0.016-1.134-0.233-2.212-0.617-3.207l0.021 0.063c-0.681-1.722-2.021-3.059-3.7-3.722l-0.044-0.015c-0.921-0.355-1.985-0.572-3.097-0.595l-0.010-0c-1.366-0.062-1.798-0.078-5.27-0.078s-3.917 0-5.274 0.078c-1.062 0.022-2.112 0.224-3.107 0.595-1.723 0.678-3.062 2.016-3.727 3.693l-0.015 0.044c-0.357 0.919-0.573 1.981-0.595 3.092l-0 0.009c-0.061 1.366-0.080 1.8-0.080 5.264 0 3.467 0 3.91 0.080 5.267 0.021 1.061 0.221 2.109 0.595 3.104 0.682 1.721 2.021 3.057 3.7 3.719l0.044 0.015c0.918 0.37 1.98 0.602 3.091 0.64l0.016 0c1.368 0.059 1.802 0.078 5.274 0.078s3.917 0 5.274-0.080c1.122-0.022 2.188-0.238 3.173-0.615l-0.064 0.022c1.722-0.68 3.060-2.017 3.727-3.693l0.016-0.044c0.356-0.92 0.573-1.983 0.595-3.095l0-0.009c0.061-1.365 0.080-1.798 0.080-5.264-0.003-3.467-0.003-3.907-0.083-5.264zM16.79 22.531c-0.002 0-0.005 0-0.008 0-3.624 0-6.562-2.936-6.565-6.56v-0c0-3.626 2.942-6.562 6.573-6.562 0.001 0 0.003 0 0.005 0 3.624 0 6.563 2.936 6.566 6.56v0c0 3.626-2.944 6.562-6.571 6.562zM23.622 10.696c-0.845 0-1.53-0.685-1.53-1.53s0.685-1.53 1.53-1.53v0c0.845 0 1.53 0.685 1.53 1.53s-0.685 1.53-1.53 1.53v0z"></path>
 <path d="M16.792 19.976c2.211 0 4.004-1.793 4.004-4.004s-1.793-4.004-4.004-4.004v0c-2.211 0-4.004 1.793-4.004 4.004s1.793 4.004 4.004 4.004v0z"></path>
 </symbol>
-<symbol id="icon-Icon" viewBox="0 0 64 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.7143" d="M2.857 4.667h58.286M2.857 27.333h58.286"></path>
-</symbol>
-<symbol id="icon-menu-btn-phone" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M4 11.334h24M4 20.666h24"></path>
-</symbol>
-<symbol id="icon-Icon-menu" viewBox="0 0 64 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.7143" d="M2.857 4.667h58.286M2.857 27.333h58.286"></path>
-</symbol>
 <symbol id="icon-close" viewBox="0 0 32 32">
 <path fill="none" stroke="#fbfbfb" style="stroke: var(--color1, #fbfbfb)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M24 8l-16 16M8 8l16 16"></path>
+</symbol>
+    <symbol id="icon-btn-menu-phone" viewBox="0 0 64 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.7143" d="M2.857 4.667h58.286M2.857 27.333h58.286"></path>
 </symbol>
 </defs>
 </svg>
