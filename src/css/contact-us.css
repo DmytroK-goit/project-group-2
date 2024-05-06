@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 
@@ -50,7 +50,7 @@ textarea::placeholder {
     padding-left: 20px;
     padding-right: 20px;
     margin: 0 auto;
-}
+} */
 
 .contacts-us-container {
     padding-bottom: 60px;
