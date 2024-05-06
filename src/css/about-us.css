@@ -1,5 +1,5 @@
 .about-section {
-  /* margin-bottom: 60px; */
+  margin-bottom: 60px;
 }
 
 .about-wrap {
@@ -66,15 +66,15 @@
 .about-btn:focus {
   background-color: #1f3cd4;
 }
+
 .about-img {
   border-radius: 30px;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(12, 12, 12, 0.2) 0%,
-      rgba(12, 12, 12, 0.2) 100%
-    ),
+      rgba(12, 12, 12, 0.2) 100%),
     url(/img/about-us/about-mob);
 }
+
 /* -----------------------------  FOR TABLET ----------------------------- */
 
 @media screen and (min-width: 768px) {
@@ -108,7 +108,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 20px; /* 125% */
+    line-height: 20px;
+    /* 125% */
     letter-spacing: -0.32px;
   }
 
@@ -119,14 +120,13 @@
   .about-img {
     width: 100%;
     border-radius: 50px;
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(12, 12, 12, 0.2) 0%,
-        rgba(12, 12, 12, 0.2) 100%
-      ),
+        rgba(12, 12, 12, 0.2) 100%),
       url(/img/about-us/about-tab);
   }
 }
+
 /* -----------------------------  FOR COMPUTER ----------------------------- */
 @media screen and (min-width: 1280px) {
   .about-wrap {
@@ -166,11 +166,9 @@
 
   .about-img {
     border-radius: 50px;
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(12, 12, 12, 0.2) 0%,
-        rgba(12, 12, 12, 0.2) 100%
-      ),
+        rgba(12, 12, 12, 0.2) 100%),
       url(/img/about-us/about);
   }
 }
