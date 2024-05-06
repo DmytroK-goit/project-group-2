@@ -5,23 +5,27 @@
   width: 335px;
   margin: 0 auto;
 }
+
 .hero .container {
   padding: 60px 20px;
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
 }
+
 .hero-main {
   display: flex;
   flex-direction: column;
   gap: 28px;
   margin-bottom: 28px;
 }
+
 .wrap-text {
   width: 335px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .hero-title {
   font-weight: 600;
   font-size: 40px;
@@ -29,9 +33,11 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
+
 .hero-title-span {
   color: #3350e9;
 }
+
 .hero-text {
   font-weight: 500;
   font-size: 14px;
@@ -39,6 +45,7 @@
   letter-spacing: -0.02em;
   color: rgba(12, 12, 12, 0.7);
 }
+
 .hero-wrap-links {
   width: 100%;
   height: 44px;
@@ -48,10 +55,12 @@
   flex-direction: row;
   gap: 155px;
 }
+
 .hero-people-image {
   width: 108px;
   height: 44px;
 }
+
 .hero-link-to-footer {
   font-weight: 500;
   font-size: 14px;
@@ -61,10 +70,12 @@
   color: #0c0c0c;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .hero-link-to-footer:hover,
 .hero-link-to-footer:focus {
   color: #3350e9;
 }
+
 .hero-main-img {
   border-radius: 30px;
   width: 100%;
@@ -83,13 +94,16 @@
     padding: 60px 20px;
     margin: 0 auto;
   }
+
   .wrap-text {
     width: 335px;
   }
+
   .hero-main-img {
     width: 335px;
   }
 }
+
 /* Стилі для планшетів */
 @media screen and (min-width: 768px) {
   .container {
@@ -97,10 +111,12 @@
     width: 704px;
     margin: 0 auto;
   }
+
   .hero .container {
     padding: 80px 32px;
     margin: 0 auto;
   }
+
   .hero-main {
     display: flex;
     flex-direction: row;
@@ -108,19 +124,23 @@
     width: 704px;
     margin-bottom: 40px;
   }
+
   .wrap-text {
     width: 557px;
     height: 260px;
   }
+
   .hero-title {
     font-size: 70px;
     line-height: 86%;
     width: 100%;
   }
+
   .hero-text {
     font-size: 16px;
     line-height: 125%;
   }
+
   .hero-wrap-links {
     display: flex;
     flex-direction: column;
@@ -128,19 +148,23 @@
     width: 136px;
     height: 260px;
   }
+
   .hero-people-image {
     width: 136px;
     height: 60px;
   }
+
   .hero-link-to-footer {
     font-size: 20px;
   }
+
   .hero-main-img {
     border-radius: 50px;
     width: 704px;
     height: 520px;
   }
 }
+
 /* Стилі для настільних комп'ютерів */
 @media screen and (min-width: 1280px) {
   .container {
@@ -148,9 +172,11 @@
     width: 1150px;
     margin: 0 auto;
   }
+
   .container.hero {
     padding: 80px 64px 100px 65px;
   }
+
   .hero-main {
     display: flex;
     align-items: flex-start;
@@ -160,6 +186,7 @@
     width: 1150px;
     height: 269px;
   }
+
   .wrap-text {
     display: flex;
     align-items: flex-start;
@@ -169,25 +196,31 @@
     width: 597px;
     height: 269px;
   }
+
   .hero-title {
     font-size: 72px;
     line-height: 87%;
   }
+
   .hero-text {
     width: 597px;
   }
+
   .hero-wrap-links {
     gap: 189px;
     width: 146px;
     height: 269px;
   }
+
   .hero-people-image {
     width: 146px;
     height: 60px;
   }
+
   .hero-link-to-footer {
     font-size: 20px;
   }
+
   .hero-main-img {
     border-radius: 50px;
     width: 1150px;
