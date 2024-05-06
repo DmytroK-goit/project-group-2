@@ -1,4 +1,6 @@
 /*-------CATALOG--------*/
+.catalog{margin-bottom: 60px;}
+
 .catalog-title {
   font-weight: 600;
   font-size: 32px;
@@ -83,6 +85,11 @@
 
 /*------------------TAB----------------------------*/
 @media screen and (min-width:768px) {
+
+  .catalog {
+      margin-bottom: 80px;
+    }
+
   .catalog-title {
     font-size: 48px;
     margin-bottom: 40px;
@@ -109,6 +116,10 @@
 
 /*------------------Desktop----------------------------*/
 @media screen and (min-width:1280px) {
+  .catalog {
+      margin-bottom: 100px;
+    }
+    
   .catalog-item {
     width: calc((100% - 46px) / 3);
   }
