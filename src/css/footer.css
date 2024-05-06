@@ -1,7 +1,7 @@
 .footer-container {
     background-color: #0c0c0c;
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
     border-radius: 30px;
 }
 
@@ -122,10 +122,17 @@
     gap: 20px;
 }
 
+.footer-linie-icon {
+    stroke-width: 1px;
+    stroke: rgba(251, 251, 251, 0.5);
+    height: 2px;
+
+}
+
 @media screen and (max-width:767px) {
-    .section-footer {
+    /* .section-footer {
         padding-top: 30px;
-    }
+    } */
 
     .footer-container {
         flex-direction: column;
@@ -145,8 +152,8 @@
     }
 
     .footer-social-icon {
-        width: 34px;
-        height: 34px;
+        width: 18px;
+        height: 18px;
     }
 
     .footer-tel-wrap {
@@ -164,7 +171,7 @@
     }
 
     .description-wrapper {
-        margin-bottom: 100px;
+        margin-bottom: 92px;
 
     }
 
@@ -190,7 +197,16 @@
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        gap: 16px;
+        gap: 8px 16px;
+    }
+
+    .menu-item {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 1.33;
+        text-align: center;
+        color: #fbfbfb;
+
     }
 
     .menu-link {
@@ -206,7 +222,7 @@
     .footer-linie-icon {
         stroke-width: 1px;
         stroke: rgba(251, 251, 251, 0.5);
-        height: 24px;
+        height: 2px;
 
     }
 
@@ -240,9 +256,9 @@
 }
 
 @media screen and (min-width:768px) {
-    .section-footer {
+    /* .section-footer {
         padding-top: 40px;
-    }
+    } */
 
     .footer-container {
         flex-direction: column;
@@ -265,8 +281,8 @@
     }
 
     .footer-social-icon {
-        width: 36px;
-        height: 36px;
+        width: 20px;
+        height: 20px;
     }
 
     .footer-tel-wrap {
@@ -347,7 +363,7 @@
     .footer-linie-icon {
         stroke-width: 1px;
         stroke: rgba(251, 251, 251, 0.5);
-        height: 5px;
+        height: 2px;
         width: 100%;
 
     }
@@ -358,9 +374,9 @@
 }
 
 @media screen and (min-width:1280px) {
-    .section-footer {
+    /* .section-footer {
         padding-top: 50px;
-    }
+    } */
 
     .footer-container {
         max-width: 1216px;
@@ -381,6 +397,16 @@
         display: block;
         display: flex;
     }
+
+    .description-wrapper {
+        margin-bottom: 0;
+    }
+
+    .container-tablet-social {
+
+        margin-bottom: 0px;
+    }
+
 
     .information-container {
         max-width: 1150px;
@@ -408,7 +434,13 @@
     }
 
     .footer-linie-icon {
-        height: 10px;
+
+        /* stroke-width: 1px;
+        stroke: rgba(251, 251, 251, 0.5);
+
+
+
+        height: 2px; */
 
     }
 }
