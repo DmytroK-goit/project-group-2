@@ -396,12 +396,15 @@
     .information {
         flex-direction: row;
         gap: 159px;
+        border-top: 1px solid;
+
     }
 
     .information {
         flex-direction: row;
         width: 1150px;
         justify-content: space-between;
+
     }
 
     .menu-list {
