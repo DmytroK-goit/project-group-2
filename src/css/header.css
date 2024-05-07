@@ -5,9 +5,8 @@
     margin: 0 auto;
   }
 
-  .wrapper {
-    padding-left: 20px;
-    padding-bottom: 20px;
+  .wrapper .container {
+    padding: 20px 20px;
     border-bottom: 1px solid rgba(12, 12, 12, 0.1);
   }
 
@@ -88,8 +87,8 @@
   }
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .header-menu {
       background-image: url(../img/header/background-phone-2x.jpg);
     }
@@ -128,7 +127,8 @@
     gap: 24px;
   }
 
-  .header-menu-item-phone {}
+  .header-menu-item-phone {
+  }
 
   .current {
     position: relative;
@@ -197,9 +197,8 @@
     margin: 0 auto;
   }
 
-  .wrapper {
-    padding-left: 20px;
-    padding-bottom: 20px;
+  .wrapper .container {
+    padding: 20px 20px;
     border-bottom: 1px solid rgba(12, 12, 12, 0.1);
   }
 
@@ -280,8 +279,8 @@
   }
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .header-menu {
       background-image: url(../img/header/background-phone-2x.jpg);
     }
@@ -327,7 +326,8 @@
     height: 238px;
   }
 
-  .header-menu-item-phone {}
+  .header-menu-item-phone {
+  }
 
   .current {
     position: relative;
@@ -473,8 +473,8 @@
   }
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
     .header-menu {
       background-image: url(../img/header/background-tab-2x.jpg);
     }
@@ -520,7 +520,8 @@
     height: 238px;
   }
 
-  .header-menu-item-phone {}
+  .header-menu-item-phone {
+  }
 
   .current {
     position: relative;
