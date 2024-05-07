@@ -64,7 +64,8 @@
     height: 812px;
     position: absolute;
     top: 0;
-    left: 42%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 999;
     padding-top: 20px;
     padding-right: 20px;
@@ -254,7 +255,8 @@
     height: 812px;
     position: absolute;
     top: 0;
-    left: 36%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 999;
     background: #0c0c0c;
     padding-top: 20px;
@@ -270,7 +272,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 200px;
+    /* max-width: 200px; */
     margin: 0 auto;
   }
 
@@ -447,7 +449,8 @@
     height: 1024px;
     position: absolute;
     top: 0;
-    left: 52%;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 999;
     background-color: #0c0c0c;
     padding-top: 20px;
