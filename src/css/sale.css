@@ -34,6 +34,15 @@
   border-radius: 16px;
   background-color: #f3f3f3;
   padding: 13px 14px;
+  /* flex-shrink: 0; */
+}
+
+.sale-img-item img {
+  height: 100%;
+}
+
+.sale-main-img img {
+  height: 100%;
 }
 
 .sale-main-img {
@@ -227,6 +236,7 @@
   .sale-mini-img {
     flex-direction: column;
     gap: 10px;
+    overflow: 0;
   }
 
   .sale-main-img {
