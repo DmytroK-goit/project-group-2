@@ -59,13 +59,12 @@
   .wrapper {
     position: relative;
   }
-
   .header-menu {
     width: 200px;
-    height: 812px;
-    position: absolute;
+    height: 100%;
+    position: fixed;
     top: 0;
-    left: 50%;
+    left: 68%;
     transform: translateX(-50%);
     z-index: 999;
     padding-top: 20px;
@@ -103,12 +102,13 @@
   .menu-btn-close {
     display: block;
     margin-left: auto;
-    margin-bottom: 186px;
     width: 34px;
     height: 34px;
     border: none;
     background-color: transparent;
     position: relative;
+    top: 0;
+    margin-bottom: 40%;
   }
 
   .menu-btn-svg {
@@ -125,6 +125,13 @@
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    margin-bottom: 40%;
+  }
+
+  .menu-icon-wrap {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
   }
 
   .header-menu-item-phone {
@@ -153,11 +160,15 @@
     text-align: center;
     color: #fbfbfb;
   }
+  .menu-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
   .menu-icon-wrap {
     display: flex;
     flex-direction: column;
-    margin-top: auto;
   }
 
   .menu-icon-list-phone {
@@ -199,7 +210,6 @@
 
   .wrapper .container {
     padding: 20px 20px;
-    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
   }
 
   .header-nav {
@@ -251,20 +261,19 @@
   .wrapper {
     position: relative;
   }
-
   .header-menu {
     width: 200px;
-    height: 812px;
-    position: absolute;
+    height: 100%;
+    position: fixed;
     top: 0;
-    left: 50%;
+    left: 68%;
     transform: translateX(-50%);
     z-index: 999;
-    background: #0c0c0c;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 40px;
     padding-left: 20px;
+    background-color: #0c0c0c;
     display: flex;
     visibility: hidden;
     opacity: 0;
@@ -274,7 +283,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* max-width: 200px; */
+    max-width: 200px;
     margin: 0 auto;
   }
 
@@ -295,12 +304,13 @@
   .menu-btn-close {
     display: block;
     margin-left: auto;
-    margin-bottom: 186px;
     width: 34px;
     height: 34px;
     border: none;
     background-color: transparent;
     position: relative;
+    top: 0;
+    margin-bottom: 40%;
   }
 
   .menu-btn-svg {
@@ -312,18 +322,12 @@
     stroke: #fbfbfb;
   }
 
-  .menu-icon-wrap {
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-  }
-
   .menu-list-phone {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 24px;
-    height: 238px;
+    margin-bottom: 40%;
   }
 
   .header-menu-item-phone {
@@ -351,6 +355,16 @@
     line-height: 1.28;
     text-align: center;
     color: #fbfbfb;
+  }
+  .menu-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .menu-icon-wrap {
+    display: flex;
+    flex-direction: column;
   }
 
   .menu-icon-list-phone {
@@ -448,10 +462,10 @@
 
   .header-menu {
     width: 330px;
-    height: 1024px;
-    position: absolute;
+    height: 100%;
+    position: fixed;
     top: 0;
-    left: 50%;
+    left: 76%;
     transform: translateX(-50%);
     z-index: 999;
     background-color: #0c0c0c;
@@ -495,6 +509,8 @@
     border: none;
     background-color: transparent;
     position: relative;
+    top: 0;
+    margin-bottom: 10%;
   }
 
   .menu-btn-svg {
@@ -518,6 +534,7 @@
     align-items: center;
     gap: 24px;
     height: 238px;
+    margin-bottom: 15%;
   }
 
   .header-menu-item-phone {
