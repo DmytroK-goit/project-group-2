@@ -121,7 +121,7 @@
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
-  padding: 8px 12px;
+  padding: 7px 12px;
 }
 
 /*------------------------TABLET--------------------------*/
@@ -234,5 +234,9 @@
   }
 
   .sale-description {
+  }
+
+  .sale-subtitle {
+    width: 389px;
   }
 }
