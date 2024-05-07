@@ -21,20 +21,21 @@
 }
 
 .about-title {
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 1;
-  letter-spacing: -0.02em;
   color: #0c0c0c;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
   margin-bottom: 28px;
 }
 
 .about-paragraph {
-  font-weight: 500;
+  color: rgba(12, 12, 12, 0.7);
   font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
-  color: #0c0c0c;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
 }
 
 .about-list-item:first-child {
@@ -65,15 +66,15 @@
 .about-btn:focus {
   background-color: #1f3cd4;
 }
+
 .about-img {
   border-radius: 30px;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       rgba(12, 12, 12, 0.2) 0%,
-      rgba(12, 12, 12, 0.2) 100%
-    ),
+      rgba(12, 12, 12, 0.2) 100%),
     url(/img/about-us/about-mob);
 }
+
 /* -----------------------------  FOR TABLET ----------------------------- */
 
 @media screen and (min-width: 768px) {
@@ -90,14 +91,26 @@
   }
 
   .about-title {
-    font-size: 48px;
-    line-height: 0.92;
     margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
   }
 
   .about-paragraph {
+    /* font-size: 16px;
+    line-height: 1.25; */
+
+    color: rgba(12, 12, 12, 0.7);
+
+    /* Desktop_tablet/Main text */
+    font-family: Gilroy;
     font-size: 16px;
-    line-height: 1.25;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    /* 125% */
+    letter-spacing: -0.32px;
   }
 
   .about-list-item:last-child {
@@ -107,14 +120,13 @@
   .about-img {
     width: 100%;
     border-radius: 50px;
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(12, 12, 12, 0.2) 0%,
-        rgba(12, 12, 12, 0.2) 100%
-      ),
+        rgba(12, 12, 12, 0.2) 100%),
       url(/img/about-us/about-tab);
   }
 }
+
 /* -----------------------------  FOR COMPUTER ----------------------------- */
 @media screen and (min-width: 1280px) {
   .about-wrap {
@@ -135,6 +147,8 @@
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
+    line-height: 44px;
+    letter-spacing: -0.96px;
   }
 
   .about-paragraph {
@@ -147,16 +161,14 @@
   }
 
   .about-list-item:last-child {
-    margin-bottom: 75px;
+    margin-bottom: 40px;
   }
 
   .about-img {
     border-radius: 50px;
-    background-image: linear-gradient(
-        0deg,
+    background-image: linear-gradient(0deg,
         rgba(12, 12, 12, 0.2) 0%,
-        rgba(12, 12, 12, 0.2) 100%
-      ),
+        rgba(12, 12, 12, 0.2) 100%),
       url(/img/about-us/about);
   }
 }
