@@ -195,7 +195,7 @@
   .menu-icon-item-phone:hover .menu-icon-phone,
   .menu-icon-item-phone:focus .menu-icon-phone,
   .menu-icon-item-phone:active .menu-icon-phone {
-    fill: #fbfbfb;
+    fill: #3350e9;
   }
 }
 
@@ -391,7 +391,7 @@
   .menu-icon-item-phone:hover .menu-icon-phone,
   .menu-icon-item-phone:focus .menu-icon-phone,
   .menu-icon-item-phone:active .menu-icon-phone {
-    fill: #fbfbfb;
+    fill: #3350e9;
   }
 }
 
@@ -588,7 +588,7 @@
   .menu-icon-item-phone:hover .menu-icon-phone,
   .menu-icon-item-phone:focus .menu-icon-phone,
   .menu-icon-item-phone:active .menu-icon-phone {
-    fill: #fbfbfb;
+    fill: #3350e9;
   }
 }
 
@@ -649,6 +649,11 @@
     line-height: 1.28;
     text-align: center;
     color: #0c0c0c;
+  }
+
+  .header-menu-link:hover,
+  .header-menu-link:focus {
+    color: #404bbf;
   }
 
   .text-menu {
