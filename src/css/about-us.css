@@ -74,10 +74,13 @@
   border-radius: 30px;
   background-image: linear-gradient(
       0deg,
-      rgba(12, 12, 12, 0.2) 0%,
+      rgba(26, 14, 14, 0.2) 0%,
       rgba(12, 12, 12, 0.2) 100%
     ),
     url(/img/about-us/about-mob);
+}
+.about-picture img {
+  height: 100%;
 }
 
 /* -----------------------------  FOR TABLET ----------------------------- */
