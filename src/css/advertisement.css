@@ -127,33 +127,15 @@
   color: rgba(251, 251, 251, 0.5);
 }
 
-.adv-contact {
-  display: inline-block;
-  padding: 15px 44px;
-  border: 1px solid rgba(251, 251, 251, 0.15);
-  border-radius: 16px;
-}
-
-.adv-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 160px;
-  height: 48px;
-  border: 1px solid rgba(251, 251, 251, 0.15);
-  border-radius: 16px;
-  background-color: transparent;
-  cursor: pointer;
-  margin-left: 8px;
-}
-
-.adv-btn:focus,
-.adv-btn:hover {
+.adv-contact:focus,
+.adv-contact:hover {
   border-color: #fbfbfb;
 }
 
 @media screen and (min-width: 768px) {
   .adv-btn {
+    margin-left: 0;
+    padding: 0;
   }
 
   .adv {
