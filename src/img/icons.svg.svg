@@ -12,5 +12,8 @@
 <symbol id="icon-project-facebook" viewBox="0 0 15 32">
 <path d="M12.16 1.92c0.32 0 0.64 0 1.28 0v4.8c-0.32 0-0.96 0-1.6 0s-1.28 0-1.6 0.32c-0.32 0.32-0.32 0.64-0.32 1.387 0 0.64 0 1.067 0 1.707h3.52v4.053h-3.52v17.6h-5.44v-17.707h-2.88v-4.053h2.88v-1.387c0-2.347 0.32-4.053 0.96-4.8 0.96-1.387 2.88-2.027 5.76-2.027 0.32 0.107 0.64 0.107 0.96 0.107z"></path>
 </symbol>
+<symbol id="icon-Vector" viewBox="0 0 18176 32">
+<path stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="16" d="M0 16h18176"></path>
+</symbol>
 </defs>
 </svg>

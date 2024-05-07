@@ -1,6 +1,6 @@
 @media screen and (min-width: 320px) and (max-width: 374px) {
     .container {
-        padding: 20px;
+        /* padding: 20px; */
         width: 335px;
         margin: 0 auto;
     }
@@ -70,7 +70,7 @@
 /* Адаптивна верстка від 375px і більше */
 @media screen and (min-width: 375px) {
     .container {
-        padding: 20px;
+        /* padding: 20px; */
         width: 335px;
         margin: 0 auto;
     }
@@ -140,7 +140,7 @@
 /* Стилі для планшетів */
 @media screen and (min-width: 768px) {
     .container {
-        padding: 32px;
+        /* padding: 32px; */
         width: 704px;
         margin: 0 auto;
     }
@@ -211,7 +211,7 @@
 /* Стилі для настільних комп'ютерів */
 @media screen and (min-width: 1280px) {
     .container {
-        padding: 65px;
+        /* padding: 0px 65px; */
         width: 1150px;
         margin: 0 auto;
     }
