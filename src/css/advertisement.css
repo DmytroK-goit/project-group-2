@@ -129,6 +129,9 @@
 
 .adv-contact {
   display: inline-block;
+  padding: 15px 44px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
 }
 
 .adv-btn {
@@ -167,6 +170,13 @@
   .adv {
     margin-bottom: 100px;
   }
+}
+.adv-contact {
+  display: inline-block;
+  padding: 15px 44px;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  height: 20px;
 }
 
 .adv-btn-text {
