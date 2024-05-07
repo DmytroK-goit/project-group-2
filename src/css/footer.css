@@ -124,7 +124,7 @@
 
 .footer-linie-icon {
     stroke-width: 1px;
-    stroke: rgba(251, 251, 251, 0.5);
+    stroke: rgba(251, 251, 251, 0.3);
     height: 2px;
 
 }
@@ -221,7 +221,7 @@
 
     .footer-linie-icon {
         stroke-width: 1px;
-        stroke: rgba(251, 251, 251, 0.5);
+        stroke: rgba(251, 251, 251, 0.3);
         height: 2px;
 
     }
@@ -362,7 +362,7 @@
 
     .footer-linie-icon {
         stroke-width: 1px;
-        stroke: rgba(251, 251, 251, 0.5);
+        stroke: rgba(251, 251, 251, 0.2);
         height: 2px;
         width: 100%;
 
