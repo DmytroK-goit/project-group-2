@@ -140,6 +140,7 @@
 
   .footer-logo {
     margin-bottom: 20px;
+    display: block;
   }
 
   .footer-social-list {
