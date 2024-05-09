@@ -5,6 +5,8 @@
     margin: 0 auto;
   }
 
+
+
   .wrapper .container {
     padding: 20px 20px;
     border-bottom: 1px solid rgba(12, 12, 12, 0.1);
@@ -59,6 +61,7 @@
   .wrapper {
     position: relative;
   }
+
   .header-menu {
     width: 200px;
     height: 100%;
@@ -86,8 +89,8 @@
   }
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .header-menu {
       background-image: url(../img/header/background-phone-2x.jpg);
     }
@@ -134,8 +137,7 @@
     margin-top: auto;
   }
 
-  .header-menu-item-phone {
-  }
+  .header-menu-item-phone {}
 
   .current {
     position: relative;
@@ -160,6 +162,7 @@
     text-align: center;
     color: #fbfbfb;
   }
+
   .menu-wrap {
     display: flex;
     flex-direction: column;
@@ -261,6 +264,7 @@
   .wrapper {
     position: relative;
   }
+
   .header-menu {
     width: 200px;
     height: 100%;
@@ -288,8 +292,8 @@
   }
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .header-menu {
       background-image: url(../img/header/background-phone-2x.jpg);
     }
@@ -330,8 +334,7 @@
     margin-bottom: 40%;
   }
 
-  .header-menu-item-phone {
-  }
+  .header-menu-item-phone {}
 
   .current {
     position: relative;
@@ -356,6 +359,7 @@
     text-align: center;
     color: #fbfbfb;
   }
+
   .menu-wrap {
     display: flex;
     flex-direction: column;
@@ -487,8 +491,8 @@
   }
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
     .header-menu {
       background-image: url(../img/header/background-tab-2x.jpg);
     }
@@ -537,8 +541,7 @@
     margin-bottom: 15%;
   }
 
-  .header-menu-item-phone {
-  }
+  .header-menu-item-phone {}
 
   .current {
     position: relative;
@@ -719,5 +722,9 @@
 
   .header-menu {
     display: none;
+  }
+
+  .header-menu-link.hover-state {
+    color: aqua;
   }
 }
