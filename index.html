@@ -10,9 +10,10 @@
     integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   
   <script type="module" crossorigin src="/project-group-2/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/project-group-2/assets/index-bec920aa.css">
+  <link rel="stylesheet" href="/project-group-2/assets/index-742154f2.css">
 </head>
 
 <body>
@@ -653,10 +654,12 @@
           <p class="contacts-form-text">
             Please use the form below to contact us. Enter your name, email, phone, and message and we'll get back to
             you shortly.
-          </p>
-          <input class="contacts-form-input" type="text" name="username" placeholder="Name">
-          <input class="contacts-form-input" type="text" name="usermail" placeholder="Email">
-          <input class="contacts-form-input" type="text" placeholder="+380">
+          </p><label for="username">
+            <input class="contacts-form-input" type="text" name="username" placeholder="Name"></label>
+          <label for="usermail">
+            <input class="contacts-form-input" type="email" name="usermail" placeholder="Email"></label>
+          <label for="usertel"></label>
+          <input class="contacts-form-input" type="tel" name="usertel" placeholder="+380">
           <textarea class="contacts-form-textarea" name="usercomment" cols="30" rows="10"
             placeholder="Comment"></textarea>
           <button class="contacts-btn" type="submit">Send</button>
