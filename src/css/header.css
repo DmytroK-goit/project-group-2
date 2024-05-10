@@ -67,8 +67,9 @@
     height: 100%;
     position: fixed;
     top: 0;
-    left: 68%;
-    transform: translateX(-50%);
+    right: 0;
+    /* left: 30%; */
+    /* transform: translateX(-30%); */
     z-index: 999;
     padding-top: 20px;
     padding-right: 20px;
@@ -270,8 +271,9 @@
     height: 100%;
     position: fixed;
     top: 0;
-    left: 68%;
-    transform: translateX(-50%);
+    right: 0;
+    /* left: 40%;
+    transform: translateX(-40%); */
     z-index: 999;
     padding-top: 20px;
     padding-right: 20px;
@@ -289,6 +291,12 @@
     background-repeat: no-repeat;
     max-width: 200px;
     margin: 0 auto;
+    transition: opacity 0.5s ease;
+  }
+
+  .header-menu.hidden {
+    opacity: 0;
+    pointer-events: none;
   }
 
   @media screen and (webkit-min-device-pixel-ratio: 2),
@@ -469,8 +477,9 @@
     height: 100%;
     position: fixed;
     top: 0;
-    left: 76%;
-    transform: translateX(-50%);
+    right: 0;
+    /* left: 50%;
+    transform: translateX(-50%); */
     z-index: 999;
     background-color: #0c0c0c;
     padding-top: 20px;

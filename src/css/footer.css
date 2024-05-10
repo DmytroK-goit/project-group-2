@@ -76,7 +76,7 @@
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   text-align: center;
-  color: #fbfbfb;
+  color: rgba(251, 251, 251, 0.7);
 }
 
 .address-name {
@@ -96,6 +96,10 @@
     flex-direction: column;
     gap: 8px; */
   /* border-top: 1px solid rgba(219, 20, 20, 0.1); */
+}
+
+.menu-link:hover {
+  color: #fbfbfb;
 }
 
 .information-text {
@@ -200,6 +204,10 @@
     font-size: 12px;
     line-height: 1.33;
     text-align: center;
+    color: #fbfbfb;
+  }
+
+  .menu-link:hover {
     color: #fbfbfb;
   }
 
@@ -418,6 +426,10 @@
 
   .menu-list {
     gap: 40px;
+  }
+
+  .menu-link:hover {
+    color: #fbfbfb;
   }
 
   .footer-linie-icon {
