@@ -196,6 +196,10 @@
     border-radius: 50px;
     width: 1150px;
     height: 500px;
+  }
 
+  .kenburns-top {
+    -webkit-animation: kenburns-top 5s ease-in both;
+    animation: kenburns-top 5s ease-in both;
   }
 }
