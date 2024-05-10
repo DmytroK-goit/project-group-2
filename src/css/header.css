@@ -57,6 +57,8 @@
     stroke: #0c0c0c;
   }
 
+
+
   /*-------------header menu-----------*/
   .wrapper {
     position: relative;
@@ -405,7 +407,17 @@
   .menu-icon-item-phone:active .menu-icon-phone {
     fill: #3350e9;
   }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+  }
 }
+
 
 /* Стилі для планшетів */
 @media screen and (min-width: 768px) {
@@ -602,6 +614,15 @@
   .menu-icon-item-phone:active .menu-icon-phone {
     fill: #3350e9;
   }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
+  }
 }
 
 /* Стилі для настільних комп'ютерів */
@@ -735,5 +756,14 @@
 
   .header-menu-link.hover-state {
     color: aqua;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #fff;
   }
 }
