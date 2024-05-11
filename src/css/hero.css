@@ -3,7 +3,6 @@
 .hero .container {
   margin-bottom: 60px;
   margin-top: 60px;
-
 }
 
 .hero-main {
@@ -18,7 +17,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-
 }
 
 .hero-title {
@@ -78,7 +76,7 @@
 }
 
 .hero-picture {
-  border: 50px;
+  border-radius: 50px;
 }
 
 /* Адаптивна верстка від 375px і більше */
@@ -149,10 +147,8 @@
 
 /* Стилі для настільних комп'ютерів */
 @media screen and (min-width: 1280px) {
-
   .hero .container {
     padding-bottom: 20px;
-
   }
 
   .hero-main {
@@ -173,7 +169,6 @@
     gap: 20px;
     width: 597px;
     height: 269px;
-
   }
 
   .hero-title {
@@ -212,5 +207,4 @@
     -webkit-animation: kenburns-top 5s ease-in both;
     animation: kenburns-top 5s ease-in both;
   }
-
 }
