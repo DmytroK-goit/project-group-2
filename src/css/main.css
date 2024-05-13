@@ -59,7 +59,7 @@ html {
   (min-resolution: 2dppx) {
     body {
       background-image:
-        url(../css/img/smartwatch.jpg);
+        url(../css/img/back-phone.jpg);
     }
   }
 }
@@ -87,7 +87,7 @@ html {
   (min-resolution: 2dppx) {
     body {
       background-image:
-        url(../css/img/smartwatch.jpg);
+        url(../css/img/back-phone.jpg);
     }
   }
 }
