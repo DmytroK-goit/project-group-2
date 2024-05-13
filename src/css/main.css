@@ -43,6 +43,7 @@ html {
     width: 335px;
     margin: 0 auto;
     box-sizing: border-box;
+
   }
 
   body {
@@ -59,7 +60,7 @@ html {
   (min-resolution: 2dppx) {
     body {
       background-image:
-        url(../css/img/back-phone.jpg);
+        url(../css/img/back-phone.webp);
     }
   }
 }
@@ -87,7 +88,7 @@ html {
   (min-resolution: 2dppx) {
     body {
       background-image:
-        url(../css/img/back-phone.jpg);
+        url(../css/img/back-phone.webp);
     }
   }
 }
@@ -114,7 +115,7 @@ html {
   (min-resolution: 2dppx) {
     body {
       background-image:
-        url(../css/img/smartwatch.jpg);
+        url(../css/img/smartwatch.webp);
     }
   }
 }
@@ -141,7 +142,7 @@ html {
   (min-resolution: 2dppx) {
     body {
       background-image:
-        url(../css/img/smartwatch.jpg);
+        url(../css/img/smartwatch.webp);
     }
   }
 }
