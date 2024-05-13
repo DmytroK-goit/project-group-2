@@ -54,6 +54,14 @@ html {
     height: 100%;
     width: 100%;
   }
+
+  @media screen and(min-resolution: 2dppx),
+  (min-resolution: 2dppx) {
+    body {
+      background-image:
+        url(../css/img/garmin-fenix-7.webp);
+    }
+  }
 }
 
 /* Стилі для мобільних пристроїв */
@@ -74,6 +82,14 @@ html {
     height: 100%;
     width: 100%;
   }
+
+  @media screen and(min-resolution: 2dppx),
+  (min-resolution: 2dppx) {
+    body {
+      background-image:
+        url(../css/img/garmin-fenix-7.webp);
+    }
+  }
 }
 
 /* Стилі для планшетів */
@@ -93,6 +109,14 @@ html {
     height: 100%;
     width: 100%;
   }
+
+  @media screen and(min-resolution: 2dppx),
+  (min-resolution: 2dppx) {
+    body {
+      background-image:
+        url(../css/img/garmin-fenix-7.webp);
+    }
+  }
 }
 
 /* Стилі для настільних комп'ютерів */
@@ -111,5 +135,13 @@ html {
     background-attachment: fixed;
     height: 100%;
     width: 100%;
+  }
+
+  @media screen and(min-resolution: 2dppx),
+  (min-resolution: 2dppx) {
+    body {
+      background-image:
+        url(../css/img/garmin-fenix-7.webp);
+    }
   }
 }
